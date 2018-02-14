@@ -1,3 +1,4 @@
+require 'pry'
 require_relative "./student.rb"
 class ChattyStudent < Student
   def hello
@@ -6,6 +7,7 @@ class ChattyStudent < Student
   end
   def raise_hand
     super
+    binding.pry
     10.times do
       puts "Pick me!"
     end
