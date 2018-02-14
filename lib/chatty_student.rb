@@ -13,6 +13,6 @@ class ChattyStudent < Student
     # super
     # super
     # super
-      puts "Pick me!" * 10
+      puts "Pick me!" * 9
     end
 end
